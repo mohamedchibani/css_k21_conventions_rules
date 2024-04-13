@@ -1,7 +1,33 @@
-div {
-  background-color: #ddd;
-  width: 300px;
-  padding: 10px;
-  border: 10px solid orange;
-  outline: 10px solid blue;
+/*
+  inline
+  - do not repsepct width, height
+  - respect padding and margin [ just right + left ]
+  - do not add line break
+  - allow elements before and after it in the same line
+*/
+
+span {
+  background-color: #eee;
+  display: inline-block;
+  padding: 30px;
+  margin: 20px;
+  width: 100px;
+  height: 50px;
 }
+
+/*
+  block
+  - take full width if no width
+  - add line break
+  - respect padding, margin, width, height
+
+  inline
+  - do not repsepct width, height
+  - respect padding and margin [ just right + left ]
+  - do not add line break
+  - allow elements before and after it in the same line
+
+  inline-block
+  - allow elements before and after it in the same line
+  - respect padding, margin, width, height
+*/
