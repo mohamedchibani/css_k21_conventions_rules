@@ -1,26 +1,7 @@
-.one {
-  border-bottom: 2px solid red;
-}
-
-.two {
-  border-bottom: 2px solid green;
-}
-
-.three {
-  border-bottom: 2px solid green;
-}
-
-.four {
-  border-bottom: 2px solid blue;
-}
-
-.one,
-.two,
-.three,
-.four,
-p {
-  padding: 10px;
+div .special {
   color: red;
-  background-color: #eee;
-  margin: 15px 0;
+}
+
+p {
+  color: blue;
 }
