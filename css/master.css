@@ -1,9 +1,5 @@
 div {
-  width: 150px;
-  height: 150px;
-  background-color: #eee;
-  margin: 20px auto;
-  border-radius: 6px;
-  overflow-x: auto;
-  overflow-y: hidden;
+  background-color: #f9f9f9;
+  /* color: blue; */
+  text-shadow: 1px 1px 1px red;
 }
