@@ -1,5 +1,11 @@
 div {
   background-color: #f9f9f9;
-  /* color: blue; */
-  text-shadow: 1px 1px 1px red;
+  text-align: center;
+  direction: rtl;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
 }
