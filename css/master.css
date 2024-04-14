@@ -1,12 +1,26 @@
-div {
-  background-color: red;
-  margin: 10px 20px;
+.one {
+  border-bottom: 2px solid red;
 }
 
-.first {
-  visibility: hidden; /* default visible */
+.two {
+  border-bottom: 2px solid green;
 }
 
-.second {
-  display: none;
+.three {
+  border-bottom: 2px solid green;
+}
+
+.four {
+  border-bottom: 2px solid blue;
+}
+
+.one,
+.two,
+.three,
+.four,
+p {
+  padding: 10px;
+  color: red;
+  background-color: #eee;
+  margin: 15px 0;
 }
