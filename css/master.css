@@ -1,10 +1,12 @@
 div {
   background-color: #eee;
   width: 200px;
-  /*  letter-spacing: 2px;
-  text-indent: 100px;
-  line-height: 1.6;
-  word-spacing: 1px;
-  white-space: nowrap; */
-  word-break: break-word;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div:hover {
+  overflow: visible;
 }
