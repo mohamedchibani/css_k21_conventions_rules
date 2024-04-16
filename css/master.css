@@ -1,14 +1,11 @@
-html {
-  font-size: 50px;
-}
-body {
-  font-size: 40px;
+div {
+  font-style: italic;
 }
 
 div {
-  font-size: 5vw;
+  font-variant: small-caps;
 }
 
-div span {
-  font-size: 150%;
+div {
+  font-weight: bold;
 }
