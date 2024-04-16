@@ -1,11 +1,11 @@
-div {
-  font-style: italic;
-}
-
-div {
-  font-variant: small-caps;
-}
-
-div {
+button {
+  background: transparent;
+  border: none;
+  color: #f00;
   font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  cursor: grab;
 }
