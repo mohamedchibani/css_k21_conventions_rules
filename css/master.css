@@ -1,17 +1,13 @@
-.parent {
-  background-color: red;
-  padding: 10px;
+body {
+  margin: 0;
 }
 
-.parent div {
+div {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   background-color: #eee;
-  width: 25%;
   float: left;
-}
-
-.clear {
-  clear: both;
+  width: calc((100% - 90px) / 5);
+  margin-left: 15px;
 }
