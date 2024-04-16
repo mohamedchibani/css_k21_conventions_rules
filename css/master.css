@@ -1,11 +1,17 @@
-button {
-  background: transparent;
-  border: none;
-  color: #f00;
-  font-weight: bold;
-  cursor: pointer;
+.parent {
+  background-color: red;
+  padding: 10px;
 }
 
-p {
-  cursor: grab;
+.parent div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #eee;
+  width: 25%;
+  float: left;
+}
+
+.clear {
+  clear: both;
 }
