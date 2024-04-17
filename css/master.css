@@ -1,29 +1,26 @@
-body {
-  min-height: 5000px;
-}
 div {
-  background-color: red;
-  color: white;
+  position: absolute;
   padding: 10px;
-  position: sticky;
-  top: 0;
-}
-
-/* .two {
-  background-color: green;
-  margin: 20px;
+  text-align: center;
+  width: 100px;
+  color: #fff;
 }
 
 .one {
   background-color: red;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  left: 10px;
+  top: 10px;
 }
 
-.parent {
-  width: 200px;
-  height: 1000px;
+.two {
+  background-color: green;
+  left: 15px;
+  top: 15px;
+  z-index: 3;
+}
+
+.three {
   background-color: blue;
-  position: relative;
-} */
+  left: 20px;
+  top: 20px;
+}
