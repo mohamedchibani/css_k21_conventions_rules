@@ -1,8 +1,29 @@
-.one {
+body {
+  min-height: 5000px;
+}
+div {
   background-color: red;
-  opacity: 0.5;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
 }
 
-.two {
-  background-color: rgb(255 0 0 / 0.1);
+/* .two {
+  background-color: green;
+  margin: 20px;
 }
+
+.one {
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.parent {
+  width: 200px;
+  height: 1000px;
+  background-color: blue;
+  position: relative;
+} */
