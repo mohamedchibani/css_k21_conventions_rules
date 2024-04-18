@@ -1,41 +1,25 @@
-.one {
+.one span {
+  display: inline-block;
   background-color: red;
   color: white;
+  font-size: 60px;
+  font-weight: bold;
 }
 
-.two {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
+.two::first-letter {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
 }
 
-a {
+.three::first-line {
   color: green;
-  text-decoration: none;
+  font-weight: bold;
 }
 
-a:hover {
-  color: red;
-}
-
-.ch:checked + label {
-  color: red;
-  display: none;
-}
-
-a:visited {
-  color: blue;
-}
-
-div:empty {
-  border: 10px solid red;
-}
-
-.in {
-  border: 2px solid black;
-}
-
-.in:focus {
-  border-color: green;
-  outline: none;
+.four::selection {
+  background-color: black;
+  color: yellow;
 }
