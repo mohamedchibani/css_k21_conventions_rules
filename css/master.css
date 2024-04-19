@@ -1,12 +1,8 @@
-/*-webkit- = > Chrome,
-Safari,
-New Opera Version -moz-= > Firefox -ms- = > Ie,
-Edge -o-= > Old Version of Opera */
-
-.class  {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 20px auto;
+  /* border-radius: 50%; */
+  border-top-left-radius: 10px 20px;
 }
