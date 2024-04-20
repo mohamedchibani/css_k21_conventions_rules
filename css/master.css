@@ -5,60 +5,18 @@
 .flex {
   background-color: #eee;
   width: 660px;
+  height: 400px;
   padding: 20px;
   margin: 20px auto;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .flex div {
   background-color: red;
   color: white;
-  width: calc(100% / 3);
+  width: 200px;
   text-align: center;
   padding: 20px;
-}
-
-.float {
-  overflow: hidden;
-  background-color: #eee;
-  width: 660px;
-  padding: 20px;
-  margin: 20px auto;
-}
-
-.float div {
-  background-color: red;
-  color: white;
-  float: left;
-  width: calc(100% / 3);
-  text-align: center;
-  padding: 20px;
-}
-
-.one {
-  height: 80px;
-}
-
-.two {
-  height: 120px;
-}
-
-.center {
-  background-color: blue;
-  color: white;
-  width: 300px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.old-center {
-  background-color: red;
-  color: white;
-  width: 300px;
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
 }
