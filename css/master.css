@@ -1,37 +1,35 @@
-.parent {
-  overflow: hidden;
-  margin: auto;
-  width: 400px;
-  height: 200px;
-  padding: 10px;
+/*
+  CSS Variables
+  - Global variable
+  - Local variable
+  var(Variable Name, Fall Back Value or default value)
+*/
+
+:root {
+  --mainColor: blue;
+  --mainPadding: 10px;
+}
+
+.main {
+  background-color: var(--mainColor, black);
+  color: white;
+  padding: calc(20px + var(--mainPadding));
+}
+h2 {
+  color: var(--mainColor);
   background-color: #eee;
+  padding: var(--mainPadding);
+}
+p {
+  color: var(--mainColor);
+  border: 2px solid var(--mainColor);
+  padding: var(--mainPadding);
+}
+a:hover {
+  color: var(--mainColor);
 }
 
-.parent .one,
-.parent .two {
-  float: left;
-  width: 50%;
-  height: 100%;
-}
-
-.one {
-  background-color: #ddd;
-}
-
-.two {
-  background-color: #aaa;
-}
-
-.up {
-  background-color: red;
-  color: white;
-  height: 80px;
-  margin-bottom: 40px;
-}
-
-.down {
-  background-color: green;
-  color: white;
-  height: 80px;
-  margin-top: 20px;
+.local {
+  --mainColor: black;
+  background-color: var(--mainColor);
 }
