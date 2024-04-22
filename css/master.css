@@ -5,9 +5,10 @@
 .flex {
   background-color: #eee;
   width: 800px;
+  height: 300px;
   padding: 20px;
   margin: 20px auto;
-  display: inline-flex;
+  display: flex;
 }
 
 .flex div {
@@ -17,8 +18,4 @@
   margin-right: 5px;
   padding: 20px;
   width: 80px;
-}
-
-.in {
-  display: inline-block;
 }
