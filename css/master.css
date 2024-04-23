@@ -2,20 +2,29 @@
   box-sizing: border-box;
 }
 
-.flex {
-  background-color: #eee;
-  width: 800px;
-  height: 300px;
-  padding: 20px;
-  margin: 20px auto;
-  display: flex;
+/* img {
+  transition: 0.3s;
+  filter: grayscale(100%);
 }
 
-.flex div {
-  background-color: red;
-  color: white;
-  text-align: center;
-  margin-right: 5px;
-  padding: 20px;
-  width: 80px;
+img:hover {
+  filter: grayscale(0);
+} */
+
+/* img {
+  transition: 0.3s;
+  filter: blur(4px);
+}
+
+img:hover {
+  filter: blur(0);
+} */
+
+img {
+  transition: 0.3s;
+  filter: invert(100%);
+}
+
+img:hover {
+  filter: invert(0);
 }
