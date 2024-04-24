@@ -8,11 +8,11 @@
   height: 500px;
   background-color: #eee;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  /* row-gap: 10px;
-  column-gap: 10px; */
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
   gap: 10px;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .parent div {
