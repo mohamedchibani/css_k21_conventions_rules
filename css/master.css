@@ -1,7 +1,21 @@
-a:hover {
-  color: red;
+* {
+  box-sizing: border-box;
 }
 
-a {
-  pointer-events: none;
+.parent {
+  margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: repeat(2, auto) repeat(1, 1fr) 2fr;
+}
+
+.parent div {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
