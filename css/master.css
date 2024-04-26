@@ -1,16 +1,14 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .parent {
   margin: 20px auto;
-  width: 800px;
   height: 500px;
   background-color: #eee;
   display: grid;
-  /* grid-template-columns: repeat(6, 1fr); */
-  grid-template-areas: "head head nav nav nav" "cont cont cont cont cont";
-  gap: 10px;
+  grid-template-columns: minmax(200px, 600px) repeat(2, 500px);
 }
 
 .parent div {
@@ -20,16 +18,4 @@
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-}
-
-.one {
-  grid-area: head;
-}
-
-.two {
-  grid-area: nav;
-}
-
-.three {
-  grid-area: cont;
 }
