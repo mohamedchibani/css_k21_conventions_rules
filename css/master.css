@@ -8,7 +8,7 @@
   height: 500px;
   background-color: #eee;
   display: grid;
-  grid-template-columns: minmax(200px, 600px) repeat(2, 500px);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1ch));
 }
 
 .parent div {
